@@ -1,0 +1,71 @@
+{
+  "name": "all-in-one-dev-pack",
+  "displayName": "All In One Developer Pack",
+  "description": "A comprehensive extension pack for web development with essential tools",
+  "version": "1.0.0",
+  "publisher": "NuktaNur",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "extension pack",
+    "web development",
+    "productivity",
+    "all in one"
+  ],
+  "extensionPack": [
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "adpyke.codesnap",
+    "aaron-bond.better-comments",
+    "ritwickdey.liveserver",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-json"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/all-in-one-dev-pack"
+  },
+  "homepage": "https://github.com/your-username/all-in-one-dev-pack/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/your-username/all-in-one-dev-pack/issues"
+  },
+  "license": "MIT",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "allInOne.showWelcome",
+        "title": "Show Welcome Message",
+        "category": "All In One"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.4",
+    "@vscode/test-electron": "^2.2.0",
+    "vsce": "^2.15.0"
+  }
+}
