@@ -2,7 +2,7 @@
   "name": "all-in-one-dev-pack",
   "displayName": "All In One Developer Pack",
   "description": "A comprehensive extension pack for web development with essential tools",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "NuktaNur",
   "engines": {
     "vscode": "^1.74.0"
@@ -18,24 +18,28 @@
   ],
   "extensionPack": [
     "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
     "streetsidesoftware.code-spell-checker",
-    "adpyke.codesnap",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
     "aaron-bond.better-comments",
+    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
     "ritwickdey.liveserver",
     "christian-kohler.path-intellisense",
+    "eamodio.gitlens",
     "ms-vscode.vscode-typescript-next",
-    "bradlc.vscode-tailwindcss",
-    "formulahendry.auto-rename-tag",
-    "ms-vscode.vscode-json"
+    "ms-vscode.vscode-json",
+    "adpyke.codesnap"
   ],
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/all-in-one-dev-pack"
+    "url": "https://github.com/nuktadev/all-in-one-dev-pack"
   },
-  "homepage": "https://github.com/your-username/all-in-one-dev-pack/blob/main/README.md",
+  "homepage": "https://github.com/nuktadev/all-in-one-dev-pack/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/your-username/all-in-one-dev-pack/issues"
+    "url": "https://github.com/nuktadev/all-in-one-dev-pack/issues"
   },
   "license": "MIT",
   "activationEvents": [],
